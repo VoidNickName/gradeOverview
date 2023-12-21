@@ -1,0 +1,71 @@
+.suggestionsTable {
+    position: relative;
+    overflow-x: auto;
+    width: max-content;
+    max-width: 90%;
+    background-color: #2a333d;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.suggestionsTable table {
+    table-layout: fixed;
+    border-spacing: 0;
+    background-color: #2a333d;
+    border-radius: 10px;
+    color: silver;
+}
+
+.suggestionsTable th{
+    background-color: silver;
+    color: black;
+}
+
+.suggestionsTable tr:nth-child(odd) {
+    background-color: #36424e;
+}
+
+.suggestionsTable .firstColum{
+    position: sticky;
+    left: auto;
+    z-index: 2;
+    background-color: darkgray;
+    color: black;
+}
+
+.suggestionsTable td, .suggestionsTable th{
+    padding: 3px;
+}
+
+.suggestionsTable th {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+}
+
+.suggestionsTable td {
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    border-color: black;
+}
+
+.suggestionsTable th:first-child,
+.suggestionsTable td:first-child {
+    border-left: 2px solid;
+}
+
+.suggestionsTable th:first-child{
+    border-top-left-radius: 10px;
+}
+
+.suggestionsTable th:last-child{
+    border-top-right-radius: 10px;
+}
+
+.suggestionsTable tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+.suggestionsTable tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}

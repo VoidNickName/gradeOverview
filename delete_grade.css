@@ -1,0 +1,85 @@
+.trash_bin {
+    height: 20px;
+}
+
+  #myInput {
+    background-image: url("pictures/searchicon.png"); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: solid black; /* Add a black border */
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 12px; /* Add some space below the input */
+    background-color: gainsboro;
+    display: block;
+  }
+
+  th {
+    cursor: pointer;
+  }
+
+  #deleteTable {
+    position: relative;
+    overflow-x: auto;
+    width: max-content;
+    max-width: 90%;
+    background-color: #2a333d;
+    margin: 0 auto;
+  }
+
+  #deleteTable table {
+    table-layout: fixed;
+    border-spacing: 0;
+    background-color: #2a333d;
+}
+
+#deleteTable th{
+  background-color: silver;
+}
+
+#deleteTable tr:nth-child(odd) {
+  background-color: #36424e;
+}
+
+#deleteTable td, #deleteTable th{
+  padding: 3px;
+}
+
+#deleteTable th:first-child{
+  border-top-left-radius: 10px;
+}
+
+#deleteTable th:last-child{
+  border-top-right-radius: 10px;
+}
+
+#deleteTable tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+
+#deleteTable tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
+
+#deleteTable th {
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-right: 2px solid;
+}
+
+#deleteTable td {
+  border-bottom: 2px solid;
+  border-right: 2px solid;
+}
+
+#deleteTable th:first-child,
+#deleteTable td:first-child {
+  border-left: 2px solid;
+}
+
+#subjectsTable {
+  display: flex;
+  justify-content: center;
+}

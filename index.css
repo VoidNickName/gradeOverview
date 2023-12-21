@@ -1,0 +1,79 @@
+.dropdown {
+    margin-top: 10px;
+}
+
+.gradeOverviewTable {
+    position: relative;
+    overflow-x: auto;
+    width: max-content;
+    max-width: 90%;
+    background-color: #2a333d;
+    margin: 0 auto;
+}
+
+.gradeOverviewTable table {
+    table-layout: fixed;
+    border-spacing: 0;
+    background-color: #2a333d;
+    border-radius: 10px;
+    color: silver;
+}
+
+.gradeOverviewTable th{
+    background-color: silver;
+    color: black;
+}
+
+.gradeOverviewTable tr:nth-child(odd) {
+    background-color: #36424e;
+}
+
+.gradeOverviewTable .firstColum{
+    position: sticky;
+    left: auto;
+    z-index: 2;
+    background-color: darkgray;
+    color: black;
+}
+
+.gradeOverviewTable td, .gradeOverviewTable th{
+    padding: 3px;
+}
+
+.gradeOverviewTable th {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+}
+
+.gradeOverviewTable td {
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    border-color: black;
+}
+
+.gradeOverviewTable th:first-child,
+.gradeOverviewTable td:first-child {
+    border-left: 2px solid;
+}
+
+.gradeOverviewTable .secondHeader {
+    border-radius: 0 !important;
+    border-top: none;
+}
+
+.gradeOverviewTable th:first-child{
+    border-top-left-radius: 10px;
+}
+
+.gradeOverviewTable th:last-child{
+    border-top-right-radius: 10px;
+}
+
+.gradeOverviewTable #lastRow td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+.gradeOverviewTable #lastRow td:last-child {
+    border-bottom-right-radius: 10px;
+}

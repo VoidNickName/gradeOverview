@@ -1,0 +1,60 @@
+main {
+    top: 50px;
+}
+
+nav {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+#navBar {
+    width: 100%;
+    position: fixed;
+    background-color: silver;
+    border-radius: 10px;
+    border: solid;
+}
+
+#home-icon, #settings-icon, #logout-icon, #menu-icon {
+    height: 38px;
+    margin: 5px;
+    margin-bottom: -6px;
+    padding-bottom: 8px;
+}
+
+#home-button, #settings-button, #logout-button, #menu-button {
+    background-color: transparent;
+}
+
+#menu-button, #home-form, #settings-form, #logout-form {
+    display: inline;
+}
+
+#menu-button, #home-form {
+    float: left;
+}
+
+#settings-form, #logout-form {
+    float: right;
+}
+
+#navBarDropdown:hover #navBarDropdown-dropdown{
+    display: block;
+}
+
+#navBarDropdown-dropdown {
+    width: 100%;
+    position: fixed;
+    top: 46px;
+    display: none;
+    left: 0;
+}
+
+#add_grade-button, #delete_grade-button, #whatGradeDoIHaveToGet-button, #suggestions-button {
+    width: 100%;
+    padding: 13px;
+    border-radius: 10px;
+    border: solid;
+    background-color: gainsboro;
+}
